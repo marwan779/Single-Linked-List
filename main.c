@@ -1,12 +1,28 @@
+/*
+                               Documentation Part
+======================================================================================
+    @file           : student.c
+    @author         : marwan mohamed
+    @brief          : Contains the Prototypes and the implementation of the functions
+======================================================================================
+
+*/
+
+/*====================== Includes ======================*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "Platform_Types.h"
+
+/*====================== Declaration Of Structures ======================*/
 
 struct node_t
 {
     uint32 node_data;
     struct node_t *node_link;
 };
+
+/*================ Prototypes Of Functions ================*/
 
 void Insert_Node_At_Beginning(struct node_t **list);
 void Insert_Node_At_End(struct node_t **list);
@@ -19,7 +35,12 @@ void Print_Middle_Of_The_List(struct node_t *list);
 void Delete_The_Zero_Sum(struct node_t **list);
 uint32 Get_Length(struct node_t *list);
 
+/*=============== Start Of Global Variable Definition Part ===============*/
+
 struct node_t *ListHead = NULL;
+
+/*=============== End Of Global Variable Definition Part ===============*/
+
 
 int main()
 {
