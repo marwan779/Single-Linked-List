@@ -1,7 +1,7 @@
 /*
                                Documentation Part
 ======================================================================================
-    @file           : student.c
+    @file           : main.c
     @author         : marwan mohamed
     @brief          : Contains the Prototypes and the implementation of the functions
 ======================================================================================
